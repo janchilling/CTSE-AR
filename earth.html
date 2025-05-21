@@ -55,7 +55,7 @@
       arjs="debugUIEnabled: false;"
     >
       <a-marker id="marker" preset="custom" type="pattern" url="markers/earth.patt">
-        <!-- <a-entity
+        <a-entity
           gltf-model="url(./models/earth/scene.gltf)"
           scale="0.01 0.01 0.01"
           rotation="0 0 0"
@@ -69,7 +69,7 @@
             repeat="indefinite"
           >
           </a-animation>
-        </a-entity> -->
+        </a-entity>
 
         <a-image
           src="images/earth.png"
@@ -84,7 +84,7 @@
 
     <!-- loading screen -->
 
-    <script>
+    <!-- <script>
       const splash = () => {
         document.getElementById("progress").style.display = "none";
       };
@@ -92,6 +92,6 @@
       document.getElementById('marker').addEventListener("markerFound", (e)=>{ 
         document.getElementById("marker-loader-base").style.display = "none";
       })
-    </script>
+    </script> -->
   </body>
 </html>
